@@ -46,9 +46,20 @@ function App() {
         {/* Footer with Social Links */}
         <footer className="w-full py-8 px-4 text-center">
           <SocialLinks />
-          <p className="mt-6 text-sage dark:text-charcoal text-sm">
-            © {new Date().getFullYear()} • Unofficial Hozier Fan Page
-          </p>
+          <div className="mt-6 text-sage dark:text-charcoal text-sm space-y-2">
+            <p>© {new Date().getFullYear()} • Unofficial Hozier Fan Page</p>
+            <p>
+              made with love by{' '}
+              <a 
+                href="https://www.tinchopps.com.ar" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gold dark:text-purple hover:underline transition-colors duration-300"
+              >
+                tinchopps
+              </a>
+            </p>
+          </div>
         </footer>
       </div>
     </ThemeProvider>
