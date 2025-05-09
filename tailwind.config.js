@@ -21,6 +21,11 @@ export default {
         serif: ['Playfair Display', 'Georgia', 'serif'],
         sans: ['Montserrat', 'Helvetica', 'Arial', 'sans-serif'],
       },
+      backgroundImage: {
+        'paper-texture': "url('https://www.transparenttextures.com/patterns/paper.png')",
+        'parchment-texture': "url('https://www.transparenttextures.com/patterns/parchment.png')",
+        'dark-gothic': "url('https://images.pexels.com/photos/19435789/pexels-photo-19435789.jpeg?auto=compress&cs=tinysrgb&w=1600&q=80')",
+      },
     },
   },
   plugins: [],
