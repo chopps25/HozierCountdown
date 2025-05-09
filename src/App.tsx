@@ -10,10 +10,7 @@ import { ThemeProvider } from './context/ThemeContext';
 function App() {
   return (
     <ThemeProvider>
-      <div className="min-h-screen transition-colors duration-500 bg-beige dark:bg-midnight flex flex-col items-center justify-between font-serif relative overflow-hidden">
-        {/* Background Texture Overlay */}
-        <div className="absolute inset-0 bg-paper-texture dark:bg-dark-gothic bg-cover bg-center bg-fixed opacity-30 dark:opacity-40 mix-blend-overlay dark:mix-blend-soft-light pointer-events-none"></div>
-        
+      <div className="min-h-screen transition-colors duration-500 bg-beige dark:bg-red-900 flex flex-col items-center justify-between font-serif relative overflow-hidden">
         {/* Theme Toggle Button (Top Right) */}
         <div className="absolute top-4 right-4 md:top-8 md:right-8 z-10">
           <ThemeToggle />
