@@ -22,8 +22,6 @@ export default {
         sans: ['Montserrat', 'Helvetica', 'Arial', 'sans-serif'],
       },
       backgroundImage: {
-        'paper-texture': "url('https://www.transparenttextures.com/patterns/paper.png')",
-        'parchment-texture': "url('https://www.transparenttextures.com/patterns/parchment.png')",
         'dark-gothic': "url('https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg')",
       },
     },
