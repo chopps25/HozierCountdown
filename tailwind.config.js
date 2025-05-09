@@ -21,9 +21,6 @@ export default {
         serif: ['Playfair Display', 'Georgia', 'serif'],
         sans: ['Montserrat', 'Helvetica', 'Arial', 'sans-serif'],
       },
-      backgroundImage: {
-        'dark-gothic': "url('https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg')",
-      },
     },
   },
   plugins: [],
