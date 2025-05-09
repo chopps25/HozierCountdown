@@ -10,7 +10,7 @@ import { ThemeProvider } from './context/ThemeContext';
 function App() {
   return (
     <ThemeProvider>
-      <div className="min-h-screen transition-colors duration-500 bg-beige dark:bg-red-900 flex flex-col items-center justify-between font-serif relative overflow-hidden">
+      <div className="min-h-screen transition-colors duration-500 bg-beige dark:bg-blue-900 flex flex-col items-center justify-between font-serif relative overflow-hidden">
         {/* Theme Toggle Button (Top Right) */}
         <div className="absolute top-4 right-4 md:top-8 md:right-8 z-10">
           <ThemeToggle />
