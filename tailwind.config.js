@@ -6,16 +6,16 @@ export default {
     extend: {
       colors: {
         // Light mode colors
-        beige: '#F5F2E9',
-        cream: '#F8F4E6',
-        sage: '#7A8B76',
-        gold: '#D4A64A',
+        primary: '#00008B', // Dark blue
+        secondary: '#8B4513', // Brown
+        accent: '#FFD700', // Golden yellow
+        forest: '#228B22', // Forest green
         
         // Dark mode colors
-        midnight: '#1A1F36',
-        charcoal: '#A8A8B3',
-        deepPurple: '#2D2140',
-        purple: '#6B4F9E',
+        darkPrimary: '#000000', // Black
+        darkSecondary: '#8B4513', // Brown
+        darkAccent: '#FFD700', // Golden yellow
+        darkForest: '#228B22', // Forest green
       },
       fontFamily: {
         serif: ['Playfair Display', 'Georgia', 'serif'],
